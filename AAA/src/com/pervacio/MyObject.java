@@ -2,8 +2,8 @@ package com.pervacio;
 
 public class MyObject {
 	private int i = 10;
-	private long l;
-	public String str = "Chandu";
+	private long l=20;
+	private String str = "Chandu";
 
 	public MyObject(int i, long l, String str) {
 		super();
@@ -23,7 +23,10 @@ public class MyObject {
 		this.i = i;
 	}
 
-	public long getL() {
+	/**
+	 * @hide
+	 */
+	private long getL() {
 		return l;
 	}
 
