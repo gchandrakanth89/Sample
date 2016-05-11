@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_bg"
+    android:padding="10dp"
+    tools:ignore="HardcodedText" >
+
+    <CheckBox
+        android:id="@+id/check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:focusable="false"
+        android:layout_marginRight="5dp"
+        android:button="@drawable/check_box_selector"
+        android:focusableInTouchMode="false" />
+
+    <TextView
+        android:id="@+id/list_name_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/msg_button"
+        android:layout_toRightOf="@+id/check_box"
+        android:singleLine="true"
+        android:text="CI Yousufguda"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/list_num_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_name_textView"
+        android:layout_toLeftOf="@+id/msg_button"
+        android:layout_toRightOf="@+id/check_box"
+        android:singleLine="true"
+        android:text="9812345678"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/call_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:tint="#FFFFFF"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/call2" />
+
+    <ImageView
+        android:id="@+id/msg_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/call_button"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/message"
+        android:visibility="gone" />
+
+</RelativeLayout>

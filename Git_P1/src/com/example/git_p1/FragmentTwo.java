@@ -5,6 +5,7 @@ import android.support.v4.app.Fragment;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -17,7 +18,11 @@ public class FragmentTwo extends Fragment {
 		
 		ActionBar mActionBar=((AppCompatActivity) getActivity()).getSupportActionBar();
 		mActionBar.setTitle("FragTwo");
+		
+		mActionBar.setHomeButtonEnabled(true);
+		mActionBar.setDisplayHomeAsUpEnabled(true);
 
 		return view;
 	}
+	
 }
