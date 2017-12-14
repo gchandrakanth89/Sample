@@ -1,4 +1,2 @@
 # Sample
-This is my first repository
-Sample commit 1
-Sample commit 2
+Commit 12Commit 13Commit 14Commit 15Commit 15
