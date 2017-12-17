@@ -1,2 +1,2 @@
 # Sample
-Checking for pull 1
+Commit 2
