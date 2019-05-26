@@ -1,2 +1,2 @@
-# Sample
-Commit 4
+This is sample file
+Commit 1 from DEV
